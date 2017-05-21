@@ -12,8 +12,7 @@
   },
   "scripts": {
     "start": "neutrino start",
-    "build": "neutrino build",
-    "prepublish": "neutrino build"
+    "build": "neutrino build"
   },
   "neutrino": {
     "use": [
