@@ -5,6 +5,7 @@
   "devDependencies": {
     "neutrino": "^5.8.0",
     "neutrino-preset-react-components": "^1.2.2",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.5.2",
     "react-dom": "^15.5.4",
