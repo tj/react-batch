@@ -61,7 +61,6 @@ class BatchExample extends Component {
 
 ---
 
-[![GoDoc](https://godoc.org/github.com/tj/react-batch?status.svg)](https://godoc.org/github.com/tj/react-batch)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
 
