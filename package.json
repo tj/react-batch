@@ -1,0 +1,25 @@
+{
+  "name": "react-batch",
+  "version": "1.0.0",
+  "description": "React batch updates component, flush by count or interval.",
+  "devDependencies": {
+    "neutrino": "^5.8.0",
+    "neutrino-preset-react-components": "^1.2.2",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "sleep-promise": "^2.0.0"
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "prepublish": "neutrino build"
+  },
+  "neutrino": {
+    "use": [
+      "neutrino-preset-react-components"
+    ]
+  },
+  "main": "lib/Batch.js",
+  "files": ["lib/Batch.js", "lib/Batch.js.map"]
+}
