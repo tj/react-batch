@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { string, number, func, bool } from 'prop-types'
 
 export default class Batch extends Component {
 
@@ -112,4 +113,16 @@ export default class Batch extends Component {
     this.lastFlushTime = Date.now()
     return render()
   }
+}
+
+Batch.propTypes = {
+  count: number.isRequired,
+  flushCount: number.isRequired,
+  flushInterval: number.isRequired,
+  render: func.isRequired,
+  debug: bool
+}
+
+Batch.defaultProps = {
+  debug: false
 }
