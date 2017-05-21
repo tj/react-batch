@@ -1,6 +1,6 @@
 # React Batch
 
-Batches and flushes renders based on the number of items available. Useful for large lists of frequently updated which would otherwise cause performance problems with React's sync rendering.
+Batches and flushes renders based on the number of items available. Useful for large lists of frequently updated items which would otherwise cause performance problems with React's sync rendering.
 
 ## Installation
 
