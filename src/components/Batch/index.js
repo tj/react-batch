@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { string, number, func, bool } from 'prop-types'
+import PropTypes from 'prop-types'
 
 export default class Batch extends Component {
 
@@ -116,11 +116,11 @@ export default class Batch extends Component {
 }
 
 Batch.propTypes = {
-  count: number.isRequired,
-  flushCount: number.isRequired,
-  flushInterval: number.isRequired,
-  render: func.isRequired,
-  debug: bool
+  count: PropTypes.number.isRequired,
+  flushCount: PropTypes.number.isRequired,
+  flushInterval: PropTypes.number.isRequired,
+  render: PropTypes.func.isRequired,
+  debug: PropTypes.bool
 }
 
 Batch.defaultProps = {
